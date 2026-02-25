@@ -1,6 +1,7 @@
 {
   "name": "campstack",
-  "private": true,
+  "private": false,
+  "description": "A simple React component library...",
   "version": "0.0.0",
   "type": "module",
   "main": "dist/main.js",
