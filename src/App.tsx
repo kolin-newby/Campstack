@@ -1,15 +1,17 @@
 import "./App.css";
-import { Button, Label, Input } from "../";
+import { CardContainer, Card } from "../";
 
 function App() {
   return (
     <>
-      <h1>Campstack UI Demo Page</h1>
-      <div style={{ display: "flex", flexDirection: "column" }}>
-        <Button>Submit</Button>
-        <Label>This is something that is now labeled!</Label>
-        <Input />
-      </div>
+      <CardContainer>
+        <Card title="title 1">1</Card>
+        <Card title="title 1">2</Card>
+        <Card title="title 1">3</Card>
+        <Card title="title 1">4</Card>
+        <Card title="title 1">5</Card>
+        <Card title="title 1">6</Card>
+      </CardContainer>
     </>
   );
 }
