@@ -1,3 +1,5 @@
+@reference "tailwindcss";
+
 .input {
   background-color: aquamarine;
 }

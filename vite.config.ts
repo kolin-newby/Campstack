@@ -5,10 +5,12 @@ import { glob } from "glob";
 import react from "@vitejs/plugin-react";
 import dts from "vite-plugin-dts";
 import { libInjectCss } from "vite-plugin-lib-inject-css";
+import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [
     react(),
+    tailwindcss(),
     libInjectCss(),
     dts({
       tsconfigPath: resolve(__dirname, "tsconfig.lib.json"),
